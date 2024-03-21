@@ -16,7 +16,7 @@
             Imasha.
         </header>
 
-        <div style="display: flex; flex-direction: row; gap: 30px; margin: 0vw 8vw 0vw 0vw; justify-content: center;">
+        <div class="profile-box">
             <div class="profile-display">
             
                 <div class="profile-display-picture">
@@ -28,23 +28,41 @@
                     <div class="details">
                         <h2 class="name">Tharushi Imasha</h2>
                         <p class="SE">Software Engineer</p>
-                        <img src="/assets/social.png" alt="social" width="130px">
-                        <br> <br>
+
+                        <div class="social">
+                            <div class="social-box">
+                                <a href="https//facebook.com" target="_blank"> <img src="/assets/github.png" alt="github" class="social-image"> </a>
+                            </div>
+
+                            <div class="social-box">
+                                <a href="" target="_blank"> <img src="/assets/facebook.png" alt="facebook" class="social-image"> </a>
+                            </div>
+
+                            <div class="social-box">
+                                <a href="" target="_blank" style="height: 18px; width: 16px;"> <img src="/assets/linkedin.png" alt="linkedin" style="width: 16px; height: 16px;" class="social-image"> </a>
+                            </div>
+
+                            <div class="social-box">
+                                <a href="" target="_blank" style="width: 16px; height: 18px;"> <img src="/assets/instagram.png" alt="instagram" style="width: 16px; height: 16px;" class="social-image"> </a>
+                            </div>
+                        </div>
+
+                        <br>
+
                         <img src="/assets/contact.png" alt="contact" width="230px">
                         <br> <br>
             
-                        <input type="button" value="Download CV"
-                            style="background-color: #0D7377; color: white; width: 127px; height: 35px; border-radius: 5px;">
+                        <input type="button" value="Download CV">
                     </div>
             
                 </div>
             </div>
 
-            <div style="display: flex; flex-direction: column; column-gap: 20px;">
+            <div class="about-contaner">
                 <div class="about">
-                    <div style="padding-left: 60px; padding-right: 60px;">
-                        <h2 style="font-size: 35px;">About</h2>
-                        <p style="font-weight: normal; font-size: 16px;">
+                    <div>
+                        <h2>About</h2>
+                        <p>
                             Hello I am Tharushi Imasha. I began my Software engineer life in 2022. I’ve spent most of my waking hours
                             for the last
                             years designing, programming and operating web sites.
@@ -56,15 +74,15 @@
                             process, from discussion and collaboration.
                         </p>
                 
-                        <h3 style="font-size: 25px; font-weight:600;">What I Do</h3>
+                        <h3>What I Do</h3>
                 
-                        <div style="display: flex; flex-direction: row; gap: 30px;">
-                            <img src="/assets/uiUx.png" alt="uiUx" style="margin-left: 30px;">
+                        <div>
+                            <img src="/assets/uiUx.png" alt="uiUx">
                             <img src="/assets/enterprise.png" alt="enterprise">
                         </div>
                         <br>
-                        <div style="display: flex; flex-direction: row; gap: 30px;">
-                            <img src="/assets/web.png" alt="web" style="margin-left: 30px;">
+                        <div>
+                            <img src="/assets/web.png" alt="web">
                             <img src="/assets/graphic.png" alt="graphic">
                         </div>
                     </div>
@@ -72,19 +90,19 @@
                 </div>
 
                 <div class="works">
-                    <div style="padding-left: 60px; padding-right: 60px;">
-                        <h2 style="font-size: 35px;">Projects</h2>
+                    <div>
+                        <h2>Projects</h2>
                 
-                        <div style="display: flex; flex-direction: row; gap: 10px; justify-content: center;">
-                            <div style="display: flex; flex-direction: column; gap: 20px;">
-                                <img src="/assets/chatApp.png" alt="chatApp" style="margin-left: 30px; width: 320px; height: 250px; border-radius: 10px;">
-                                <img src="/assets/artWood.png" alt="artWood" style="margin-left: 30px; width: 320px; height: 250px; border-radius: 10px;">
+                        <div>
+                            <div>
+                                <img src="/assets/chatApp.png" alt="chatApp" class="first-works">
+                                <img src="/assets/artWood.png" alt="artWood" class="first-works">
                             </div>
                             <br>
-                            <div style="display: flex; flex-direction: column; gap: 20px;">
-                                <img src="/assets/pizza.png" alt="pizza" width="320px" height="150px" style="border-radius: 10px;">
-                                <img src="/assets/musicApp.png" alt="pizza" width="320px" height="140px" style="border-radius: 10px;">
-                                <img src="/assets/furnitureUi.png" alt="furnitureUi" style=" width: 320px; height: 187px;" style="border-radius: 10px;">
+                            <div>
+                                <img src="/assets/pizza.png" alt="pizza" class="pizza">
+                                <img src="/assets/musicApp.png" alt="music" class="music">
+                                <img src="/assets/furnitureUi.png" alt="furnitureUi" class="furnitureUi">
 
                             </div>
                             
@@ -93,31 +111,187 @@
                     </div>
                 
                 </div>
+
+                <div class="resume">
+                    <div>
+                        <h2>Resume</h2>
+
+                        <div class="edu-flex">
+                            <div class="education">
+                                <div class="edu-box box1">
+
+                                    <div class="edu-desc">
+
+                                        <div class="institute">
+                                            <img src="/assets/scl-logo.png" alt="scl-logo">
+                                            <h4>GCE O/L Examination</h4>
+                                        </div>
+
+                                        <p>2007 - 2018</p>
+
+                                        <h4>Rippon Girls’ College</h4>
+                                        
+                                    </div>
+                                    
+                                </div>
+                            
+                                <div class="edu-box box2">
+                                    <div class="edu-desc">
+                                    
+                                        <div class="institute">
+                                            <img src="/assets/scl-logo.png" alt="scl-logo">
+                                            <h4>GCE A/L Examination</h4>
+                                        </div>
+                                    
+                                        <p>2018 - 2020</p>
+                                    
+                                        <h4>Rippon Girls’ College</h4>
+                                    
+                                    </div>
+                                </div>
+                            
+                                <div class="edu-box box3">
+                                    <div class="edu-desc">
+                                    
+                                        <div class="institute">
+                                            <img src="/assets/esoft-logo.png" alt="esoft-logo">
+                                            <h4>Diploma in IT</h4>
+                                        </div>
+                                    
+                                        <p>2022 - 2023  (Best Performer)</p>
+                                    
+                                        <h4>Esoft Metro Campus</h4>
+                                    
+                                    </div>
+                                </div>
+                            
+                                <div class="edu-box box4">
+                                    <div class="edu-desc">
+                                    
+                                        <div class="institute">
+                                            <img src="/assets/ijse.png" alt="ijse">
+                                            <h4>Graduate Diploma SE</h4>
+                                        </div>
+                                    
+                                        <p>2023 - 2024</p>
+                                    
+                                        <h4>Institute of Software Engineering</h4>
+                                    
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h3> What I Learnt</h3>
+
+                            <div class="tech-flex">
+                                <div class="techs">
+                                    <img src="/assets/java.png" alt="java" style="width: 35px;">
+                                </div>
+
+                                <div class="techs">
+                                    <img src="/assets/html.png" alt="html">
+                                </div>
+
+                                <div class="techs">
+                                    <img src="/assets/adobe-photoshop.png" alt="ps">
+                                </div>
+
+                                <div class="techs">
+                                    <img src="/assets/figma.png" alt="figma">
+                                </div>
+
+                                <div class="techs">
+                                    <img src="/assets/css.png" alt="css">
+                                </div>
+
+                                <div class="techs">
+                                    <img src="/assets/mysql.png" alt="mysql">
+                                </div>
+
+                            </div>
+
+                            <br>
+
+                            <div class="tech-flex">
+                                <div class="techs">
+                                    <img src="/assets/arduino.png" alt="arduino">
+                                </div>
+                            
+                                <div class="techs">
+                                    <img src="/assets/js.png" alt="js">
+                                </div>
+                            
+                                <div class="techs">
+                                    <img src="/assets/adobe-lightroom.png" alt="adobe-lightroom">
+                                </div>
+                            
+                                <div class="techs">
+                                    <img src="/assets/illustrator.png" alt="illustrator">
+                                </div>
+                            
+                                <div class="techs">
+                                    <img src="/assets/xd.png" alt="xd">
+                                </div>
+                            
+                            </div>
+
+                        </div>
+
+                    </div>
+                
+                </div>
+
+                <div class="contact">
+                    <div>
+                        <h2>Contact</h2>
+
+                        <div class="form">
+
+                            <div class="form-content">
+                                <p>Connect with us! Reach out for inquiries, collaboration, <br>
+                                    or support. <b style="font-size: 16px;">Get in Touch</b>
+                                </p>
+                                
+                                <h5>Name*</h5>
+                                <input type="text" name="fullName" required>
+
+                                <h5>Email*</h5>
+                                <input type="text" name="fullName" required>
+
+                                <h5>Message*</h5>
+                                <input type="text" name="fullName" required>
+
+                                <input type="submit" value="Submit" id="btn">
+                            </div>
+        
+                        </div>
+                        
+                    </div>
+                
+                </div>
+
             </div>
 
-            <div class="navigation" style="display: flex; flex-direction: column;">
+
+            <div class="navigation">
                 <div class="box">
-                    <center>
-                        <img src="/assets/user .png" alt="user" width="35px" style="margin: 20px;">
-                    </center>
+                    <img src="/assets/user .png" alt="user">
+                    <h4>About</h4>
                 </div>
 
                 <div class="box">
-                    <center>
-                        <img src="/assets/works.png" alt="works" width="35px" style="margin: 20px;">
-                    </center>
+                    <img src="/assets/works.png" alt="works">
+                    <h4>Works</h4>
                 </div>
 
                 <div class="box">
-                    <center>
-                        <img src="/assets/resume.png" alt="resume" width="35px" style="margin: 20px;">
-                    </center>
+                    <img src="/assets/resume.png" alt="resume">
+                    <h4>Resume</h4>
                 </div>
 
                 <div class="box">
-                    <center>
-                        <img src="/assets/contactdet.png" alt="contact" width="35px" style="margin: 20px;">
-                    </center>
+                    <img src="/assets/contactdet.png" alt="contact">
+                    <h4>Contact</h4>
                 </div>
             </div>
         </div>

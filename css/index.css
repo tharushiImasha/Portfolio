@@ -5,6 +5,7 @@ body{
     background-attachment: fixed;
     background-position: center;
     font-weight: bold;
+    font-family: "Poppins", sans-serif;
 }
 header{
     font-family: "Aladin", system-ui;
@@ -14,6 +15,15 @@ header{
     padding: 35px 0px 45px 8vw;
     color: white;
 }
+
+.profile-box{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 0vw 8vw 0vw 0vw;
+    justify-content: center;
+}
+
 .profile-display{
     height: 680px;
     width: 300px;
@@ -28,7 +38,6 @@ header{
 }
 .name{
     color: #0D7377;
-    font-family: "Poppins", sans-serif;
     font-size: 24px;
 }
 
@@ -46,6 +55,48 @@ header{
     border-radius: 15px;
     margin-top: 80px;
 }
+
+.social{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+
+.social-box{
+    background-color: #E9E9E9;
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-box > a{
+    width: 18px;
+    height: 18px;
+}
+
+.social-image{
+    width: 18px;
+    height: 18px;
+}
+
+.details > input{
+    background-color: #0D7377;
+    color: white;
+    width: 127px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.about-contaner{
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+}
+
 .details{
     margin-top: 100px;
     text-align: center;
@@ -57,24 +108,39 @@ header{
     background-color: rgba(240, 248, 255, 0.699);
     border-radius: 15px;
     margin-top: 80px;
-    font-family: "Poppins", sans-serif;
     position: sticky;
 }
 
-.navigation{
+.navigation {
     height: 440px;
     width: 125px;
     background-color: rgba(240, 248, 255, 0.699);
     border-radius: 15px;
     margin-top: 80px;
+    display: flex;
+    flex-direction: column;
 }
 
-.box{
+.box {
     width: 80px;
     height: 80px;
     background-color: #0d747767;
     border-radius: 13px;
     margin: 23px 22px 0px 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box > img {
+    width: 25px;
+}
+
+.box > h4 {
+    font-size: 12px;
+    line-height: 0;
+    margin: 10px;
 }
 
 .works {
@@ -83,6 +149,280 @@ header{
     background-color: rgba(240, 248, 255, 0.699);
     border-radius: 15px;
     margin-top: 80px;
-    font-family: "Poppins", sans-serif;
     position: sticky;
+}
+
+.about > div{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.about > div > h2{
+    font-size: 35px;
+}
+
+.about > div > p {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.about >div > h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.about > div > div {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+}
+
+.works > div{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.works > div > h2{
+    font-size: 35px;
+}
+
+.works > div > div{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+
+.works > div > div > div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.works > div > div > div > img{
+    border-radius: 10px;
+}
+
+.first-works{
+    margin-left: 30px;
+    width: 320px;
+    height: 250px;
+}
+
+.pizza{
+    width: 320px;
+    height: 150px;
+}
+
+.music {
+    width: 320px;
+    height: 140px;
+}
+
+.furnitureUi{
+    width: 320px;
+    height: 187px;
+}
+
+.resume {
+    height: 680px;
+    width: 800px;
+    background-color: rgba(240, 248, 255, 0.699);
+    border-radius: 15px;
+    margin-top: 80px;
+    position: sticky;
+}
+
+.resume > div {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.resume > div > h2 {
+    font-size: 35px;
+}
+
+.education{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    
+}
+
+.edu-box{
+    width: 310px;
+    height: 130px;
+    border-radius: 8px;
+}
+
+.edu-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1{
+    background-color: #80c8ff4d;
+}
+
+.box2{
+    background-color: #ffbf764b;
+}
+
+.box3 {
+    background-color: #e79eff42;
+}
+
+.box4 {
+    background-color: #ff8d9842;
+}
+
+.edu-desc{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.institute{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+.institute > img {
+    width: 25px;
+    height: 25px;
+}
+
+.edu-desc > p{
+    color: rgba(0, 0, 0, 0.37);
+    font-size: 12px;
+    font-weight: lighter;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.edu-desc > h4{
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.box1>div>div>h4 {
+    color: #0090FF;
+    margin: 0px;
+}
+
+.box2>div>div>h4 {
+    color: #FF8900;
+    margin: 0px;
+}
+
+.box3>div>div>h4 {
+    color: #CB36FF;
+    margin: 0px;
+}
+.box4>div>div>h4 {
+    color: #FF0017;
+    margin: 0px;
+}
+
+.box4>div>div>img {
+    width: 25px;
+    height: 15px;
+    margin-top: 5px;
+}
+
+.edu-flex > h3 {
+    font-size: 24px;
+}
+
+.tech-flex{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.techs{
+    width: 65px;
+    height: 65px;
+    box-shadow: inset;
+    background-color: rgba(255, 255, 255, 0.555);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .08);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.techs > img {
+    width: 30px;
+}
+
+.contact {
+    height: 680px;
+    width: 800px;
+    background-color: rgba(240, 248, 255, 0.699);
+    border-radius: 15px;
+    margin-top: 80px;
+    position: sticky;
+}
+
+.contact > div {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.contact > div > h2{
+    font-size: 35px;
+}
+
+.form{
+    width: 680px;
+    height: 515px;
+    background-color: rgba(255, 255, 255, 0.514);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-content{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.form-content > p{
+    font-weight: normal;
+    font-size: 15px;
+    padding-top: 30px;
+}
+
+.form-content > h5{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+.form-content > input{
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #0d7477b9;
+    background: transparent;
+    height: 15px;
+    font-size: 14px;
+}
+
+#btn{
+    width: 140px;
+    height: 40px;
+    background-color: #0d747731;
+    border: 1px solid #0D7377;
+    margin-top: 35px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
 }
