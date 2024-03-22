@@ -30,6 +30,8 @@ header{
     margin-left: 8vw;
     display: flex;
     flex-direction: column;
+    position: sticky;
+    top: 5px;
 }
 
 .profile-display-picture{
@@ -173,28 +175,26 @@ header{
 .about{
     height: 680px;
     width: 800px;
-    /* background-color: rgba(240, 248, 255, 0.699); */
     background: linear-gradient(rgba(255, 255, 255, 0.904), rgba(255, 255, 255, 0.699));
     border-radius: 15px;
     margin-top: 80px;
-    position: sticky;
 }
 
 .navigation {
     height: 440px;
     width: 125px;
-    /* background-color: rgba(240, 248, 255, 0.699); */
     background: linear-gradient(rgba(255, 255, 255, 0.904), rgba(255, 255, 255, 0.699));
     border-radius: 15px;
     margin-top: 80px;
     display: flex;
     flex-direction: column;
+    position: sticky;
+    top: 5px;
 }
 
 .box {
     width: 80px;
     height: 80px;
-    /* background-color: #0d747767; */
     background: linear-gradient(rgba(255, 255, 255, 0.904), rgba(255, 255, 255, 0.699));
     border-radius: 13px;
     margin: 23px 22px 0px 22px;
@@ -204,11 +204,29 @@ header{
     justify-content: center;
 }
 
-.box > img {
+.box > a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+
+.box:hover{
+    background-color: #0D7377;
+}
+
+.box:active{
+    background: none;
+    background-color: #0D7377;
+}
+
+.box > a > img {
     width: 25px;
 }
 
-.box > h4 {
+.box > a > h4 {
     font-size: 12px;
     line-height: 0;
     margin: 10px;
@@ -220,7 +238,7 @@ header{
     /* background-color: rgba(240, 248, 255, 0.699); */
     background: linear-gradient(rgba(255, 255, 255, 0.904), rgba(255, 255, 255, 0.699));
     border-radius: 15px;
-    margin-top: 80px;
+    margin-top: 50px;
     position: sticky;
 }
 
@@ -327,7 +345,7 @@ header{
     /* background-color: rgba(240, 248, 255, 0.699); */
     background: linear-gradient(rgba(255, 255, 255, 0.904), rgba(255, 255, 255, 0.699));
     border-radius: 15px;
-    margin-top: 80px;
+    margin-top: 50px;
     position: sticky;
 }
 
@@ -464,7 +482,7 @@ header{
     /* background-color: rgba(240, 248, 255, 0.699); */
     background: linear-gradient(rgba(255, 255, 255, 0.904), rgba(255, 255, 255, 0.699));
     border-radius: 15px;
-    margin-top: 80px;
+    margin-top: 50px;
     position: sticky;
 }
 
