@@ -97,6 +97,10 @@
         width: 750px;
     }
 
+    #learnt-sec {
+        width: 750px;
+    }
+
     .works {
         height: 680px;
         width: 750px;
@@ -418,4 +422,811 @@
         display: block;
     }
 
+}
+
+@media screen and (max-width: 770px) {
+
+    .profile-box {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin: 0vw !important;
+        justify-content: center;
+    }
+
+    .profile-display {
+        height: 760px;
+        width: 650px;
+        margin-left: 0 !important;
+        position: relative !important;
+    }
+
+    .profile-display-picture {
+        width: 750px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .name {
+        color: #0D7377;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .se-btn {
+        background-color: #0d747721;
+        width: 150px;
+        height: 36px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .SE {
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .profile {
+        width: 650px;
+        height: 680px;
+    }
+
+    .social-box {
+        background-color: #0d747721;
+        width: 40px;
+        height: 40px;
+    }
+
+    .social-box>a {
+        width: 25px;
+        height: 25px;
+    }
+
+    .social-image {
+        width: 23px;
+        height: 23px;
+    }
+
+    .contact-details {
+        width: 200px;
+    }
+
+    .info-detail>p {
+        font-size: 13px;
+    }
+
+    .info-detail>h6 {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .email {
+        font-size: 16px !important;
+    }
+
+    .cvBtn {
+        border: none;
+        width: 150px;
+        height: 45px;
+        margin-top: 40px;
+        color: white;
+        background-color: #0D7377;
+        border-radius: 10px;
+        font-weight: bold;
+    }
+
+    .icon-box {
+        width: 50px;
+        height: 50px;
+    }
+
+    .icon-box>img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .contact-details {
+        width: 550px;
+        margin-top: 50px;
+    }
+
+    .about-contact>input {
+        width: 110px;
+        height: 35px;
+    }
+
+    .about {
+        width: 650px;
+    }
+
+    #iDo {
+        width: 650px;
+    }
+
+    .works {
+        height: 680px;
+        width: 650px;
+    }
+
+    .what-do {
+        gap: 20px;
+    }
+
+    .do-box {
+        width: 250px;
+    }
+
+    .what-do>div>div>p {
+        font-size: 10px;
+    }
+
+    .first-works {
+        width: 300px;
+    }
+
+    .pizza {
+        width: 300px;
+        height: 150px;
+    }
+
+    .music {
+        width: 300px;
+        height: 140px;
+    }
+
+    .furnitureUi {
+        width: 300px;
+        height: 187px;
+    }
+
+    .resume {
+        width: 650px;
+    }
+
+    .edu-box {
+        width: 250px;
+        height: 200px;
+        border-radius: 8px;
+    }
+
+    .edu-desc>h4 {
+        font-size: 14px;
+    }
+
+    .box4>div>div>img {
+        width: 25px;
+        height: 15px;
+        margin-top: 5px;
+    }
+
+    .tech-flex {
+        gap: 30px;
+    }
+
+    .contact {
+        width: 650px;
+    }
+
+    .profile-display {
+        display: none;
+    }
+
+    #profile-sec {
+        display: block;
+    }
+
+    .profile-desc {
+        width: 650px;
+    }
+    
+    #learnt-sec {
+        width: 650px;
+    }
+
+    .form {
+        width: 530px;
+    }
+
+    .box1>div>div>h4 {
+        font-size: 18px;
+    }
+
+    .box2>div>div>h4 {
+        font-size: 18px;
+    }
+
+    .box3>div>div>h4 {
+        font-size: 18px;
+    }
+
+    .box4>div>div>h4 {
+        font-size: 18px;
+    }
+
+    .edu-desc>h4 {
+        font-size: 12px;
+    }
+
+    .edu-desc>p {
+        font-size: 12px;
+    }
+
+    .first-works {
+        width: 250px;
+    }
+
+    .pizza {
+        width: 280px;
+    }
+
+    .music {
+        width: 280px;
+    }
+
+    .furnitureUi {
+        width: 280px;
+    }
+
+    .flow-box{
+        width: 190px;
+    }
+}
+
+@media screen and (max-width: 665px) {
+
+    .profile-box {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin: 0vw !important;
+        justify-content: center;
+    }
+
+    .profile-display {
+        height: 760px;
+        width: 550px;
+        margin-left: 0 !important;
+        position: relative !important;
+    }
+
+    .profile-display-picture {
+        width: 550px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .name {
+        color: #0D7377;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .se-btn {
+        background-color: #0d747721;
+        width: 150px;
+        height: 36px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .SE {
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .profile {
+        width: 550px;
+        height: 680px;
+    }
+
+    .social-box {
+        background-color: #0d747721;
+        width: 40px;
+        height: 40px;
+    }
+
+    .social-box>a {
+        width: 25px;
+        height: 25px;
+    }
+
+    .social-image {
+        width: 23px;
+        height: 23px;
+    }
+
+    .contact-details {
+        width: 200px;
+    }
+
+    .info-detail>p {
+        font-size: 13px;
+    }
+
+    .info-detail>h6 {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .email {
+        font-size: 16px !important;
+    }
+
+    .cvBtn {
+        border: none;
+        width: 150px;
+        height: 45px;
+        margin-top: 40px;
+        color: white;
+        background-color: #0D7377;
+        border-radius: 10px;
+        font-weight: bold;
+    }
+
+    .icon-box {
+        width: 50px;
+        height: 50px;
+    }
+
+    .icon-box>img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .contact-details {
+        width: 480px;
+        margin-top: 50px;
+    }
+
+    .about-contact>input {
+        width: 110px;
+        height: 35px;
+    }
+
+    .about {
+        width: 550px;
+        height: 830px;
+    }
+
+    #iDo {
+        width: 550px;
+    }
+
+    .works {
+        height: 680px;
+        width: 550px;
+    }
+
+    .what-do {
+        gap: 20px;
+    }
+
+    .do-box {
+        width: 210px;
+    }
+
+    .what-do>div>div>p {
+        font-size: 10px;
+    }
+
+    .first-works {
+        width: 300px;
+        margin-left: 0px;
+    }
+
+    .pizza {
+        width: 300px;
+        height: 150px;
+    }
+
+    .music {
+        width: 300px;
+        height: 140px;
+    }
+
+    .furnitureUi {
+        width: 300px;
+        height: 187px;
+    }
+
+    .resume {
+        width: 550px;
+    }
+
+    .edu-box {
+        width: 230px;
+        height: 200px;
+        border-radius: 8px;
+    }
+
+    .edu-desc>h4 {
+        font-size: 14px;
+    }
+
+    .box4>div>div>img {
+        width: 25px;
+        height: 15px;
+        margin-top: 5px;
+    }
+
+    .tech-flex {
+        gap: 15px;
+    }
+
+    .contact {
+        width: 550px;
+    }
+
+    .profile-display {
+        display: none;
+    }
+
+    #profile-sec {
+        display: block;
+    }
+
+    .profile-desc {
+        width: 550px;
+    }
+
+    #learnt-sec {
+        width: 550px;
+    }
+
+    .form {
+        width: 450px;
+    }
+
+    .box1>div>div>h4 {
+        font-size: 15px;
+    }
+
+    .box2>div>div>h4 {
+        font-size: 15px;
+    }
+
+    .box3>div>div>h4 {
+        font-size: 15px;
+    }
+
+    .box4>div>div>h4 {
+        font-size: 15px;
+    }
+
+    .box5>div>div>h4 {
+        font-size: 15px;
+    }
+
+    .edu-desc>h4 {
+        font-size: 12px;
+    }
+
+    .edu-desc>p {
+        font-size: 12px;
+    }
+
+    .first-works {
+        width: 230px;
+    }
+
+    .pizza {
+        width: 230px;
+    }
+
+    .music {
+        width: 230px;
+    }
+
+    .furnitureUi {
+        width: 230px;
+    }
+
+    .flow-box {
+        width: 150px;
+    }
+
+    .flow-box > p{
+        font-size: 10px;
+    }
+
+    .topic>h2 {
+        font-size: 30px;
+    }
+
+    /* .work-flex{
+        flex-direction: column !important;
+    } */
+}
+
+@media screen and (max-width: 560px) {
+
+    .profile-box {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin: 0vw !important;
+        justify-content: center;
+    }
+
+    .profile-display {
+        height: 760px;
+        width: 400px;
+        margin-left: 0 !important;
+        position: relative !important;
+    }
+
+    .profile-display-picture {
+        width: 400px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .name {
+        color: #0D7377;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .se-btn {
+        background-color: #0d747721;
+        width: 150px;
+        height: 36px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .SE {
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .profile {
+        width: 400px;
+        height: 680px;
+    }
+
+    .social-box {
+        background-color: #0d747721;
+        width: 40px;
+        height: 40px;
+    }
+
+    .social-box>a {
+        width: 25px;
+        height: 25px;
+    }
+
+    .social-image {
+        width: 23px;
+        height: 23px;
+    }
+
+    .contact-details {
+        width: 200px;
+    }
+
+    .info-detail>p {
+        font-size: 13px;
+    }
+
+    .info-detail>h6 {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .email {
+        font-size: 16px !important;
+    }
+
+    .cvBtn {
+        border: none;
+        width: 150px;
+        height: 45px;
+        margin-top: 40px;
+        color: white;
+        background-color: #0D7377;
+        border-radius: 10px;
+        font-weight: bold;
+    }
+
+    .icon-box {
+        width: 50px;
+        height: 50px;
+    }
+
+    .icon-box>img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .contact-details {
+        width: 350px;
+        margin-top: 50px;
+    }
+
+    .about-contact>input {
+        width: 110px;
+        height: 35px;
+    }
+
+    .about {
+        width: 400px;
+        height: 900px;
+    }
+
+    #iDo {
+        width: 400px;
+    }
+
+    .works {
+        height: 1250px;
+        width: 400px;
+    }
+
+    .what-do {
+        gap: 20px;
+    }
+
+    .do-box {
+        width: 150px;
+    }
+
+    .what-do>div>div>p {
+        font-size: 10px;
+    }
+
+    .first-works {
+        width: 300px;
+        margin-left: 0px;
+    }
+
+    .pizza {
+        width: 300px;
+        height: 150px;
+    }
+
+    .music {
+        width: 300px;
+        height: 140px;
+    }
+
+    .furnitureUi {
+        width: 300px;
+        height: 187px;
+    }
+
+    .resume {
+        width: 400px;
+        height: 1300px;
+    }
+
+    .edu-box {
+        width: 230px;
+        height: 200px;
+        border-radius: 8px;
+    }
+
+    .edu-desc>h4 {
+        font-size: 14px;
+    }
+
+    .box4>div>div>img {
+        width: 25px;
+        height: 15px;
+        margin-top: 5px;
+    }
+
+    .tech-flex {
+        gap: 15px;
+    }
+
+    .contact {
+        width: 400px;
+    }
+
+    .profile-display {
+        display: none;
+    }
+
+    #profile-sec {
+        display: block;
+    }
+
+    .profile-desc {
+        width: 400px;
+    }
+
+    #learnt-sec {
+        width: 400px;
+    }
+
+    .form {
+        width: 300px;
+    }
+
+    .box1>div>div>h4 {
+        font-size: 15px;
+    }
+
+    .box2>div>div>h4 {
+        font-size: 15px;
+    }
+
+    .box3>div>div>h4 {
+        font-size: 15px;
+    }
+
+    .box4>div>div>h4 {
+        font-size: 15px;
+    }
+
+    .box5>div>div>h4 {
+        font-size: 15px;
+    }
+
+    .edu-desc>h4 {
+        font-size: 12px;
+    }
+
+    .edu-desc>p {
+        font-size: 12px;
+    }
+
+    .first-works {
+        width: 230px;
+    }
+
+    .pizza {
+        width: 230px;
+    }
+
+    .music {
+        width: 230px;
+    }
+
+    .furnitureUi {
+        width: 230px;
+    }
+
+    .flow-box {
+        width: 100px;
+        height: 110px;
+    }
+
+    .flow-box>p {
+        font-size: 8px;
+    }
+
+    .topic>h2 {
+        font-size: 15px;
+    }
+
+    .topic{
+        gap: 10px;
+    }
+
+    .techs {
+        width: 50px;
+        height: 50px;
+    }
+
+    .education {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+
+    .work-flex{
+        flex-direction: column !important;
+    }
+    
 }
