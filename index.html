@@ -6,15 +6,23 @@
     <title>Tharushi Imasha</title>
     <link rel="icon" href="/assets/logo.png">
     <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/index-responsive.css">
     <link href="https://fonts.googleapis.com/css2?family=Aladin&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
 </head>
 <body>
+    
+    <header>
+        <h1>Imasha.</h1>
+        <div class="menu">
+            <img src="/assets/menu (2).svg" alt="menu">
+        </div>
+            
+    </header>
+
+        
     <div id="content">
-        <header>
-            Imasha.
-        </header>
 
         <div class="profile-box">
             <div class="profile-display">
@@ -27,7 +35,10 @@
                 <div class="profile">
                     <div class="details">
                         <h2 class="name">Tharushi Imasha</h2>
-                        <p class="SE">Software Engineer</p>
+                        <div class="se-btn">
+                            <p class="SE">Software Engineer</p>
+                        </div>
+                        
 
                         <div class="about-contact">
                             <div class="social">
@@ -71,7 +82,7 @@
                                 
                                     <div class="info-detail">
                                         <p>Email</p>
-                                        <h6 style="font-size: 11px;">Tharushi.byb@gmail.com</h6>
+                                        <h6 class="email">Tharushi.byb@gmail.com</h6>
                                     </div>
                                 
                                 </div>
@@ -102,7 +113,7 @@
 
                             </div>
                                                         
-                            <input type="button" value="Download CV">
+                            <input type="button" value="Download CV" style="border: none;">
                         </div>
 
                     </div>
@@ -132,67 +143,109 @@
                                 process, from discussion and collaboration.
                             </p>
                     
-                            <h3>What I Do</h3>
-                    
-                            <div class="what-do">
-                                <div class="do-box box1">
-                    
-                                    <div class="edu-desc">
-                    
-                                        <div class="institute">
-                                            <img src="/assets/ui-ux.png" alt="ui-ux">
-                                            <h4>UI/UX Designing</h4>
-                                        </div>
-                    
-                                        <p>
-                                            Design is the main thing of application. Pay more attention to eye-catching colors.
-                                        </p>
-                                    </div>
-                    
+                        </div>
+
+                        <div class="ultimate">
+                            <h3 style="font-weight: bold;">Ultimate Work Flow</h3>
+
+                            <div class="flow-grid">
+                                <div class="flow-box idea">
+                                    <img src="/assets/lightbulb.png" alt="idea" style="width: 35px; height: 35px;">
+                                    <h4>Awesome Ideas</h4>
+                                    <p>Present awesome ideas while engaging projects</p>
                                 </div>
-                    
-                                <div class="do-box box2">
-                                    <div class="edu-desc">
-                    
-                                        <div class="institute">
-                                            <img src="/assets/enterprise-logo.png" alt="enterprise-logo">
-                                            <h4>Enterprise Application</h4>
-                                        </div>
-                    
-                                        <p>Create Modern Enterprise Application that reliable and consistency with awesome ideas.</p>
-                    
-                                    </div>
+
+                                <div class="flow-box chat">
+                                    <img src="/assets/chat (2).png" alt="communication">
+                                    <h4>Communication</h4>
+                                    <p>Friendly and Quality Communication</p>
                                 </div>
-                    
-                                <div class="do-box box3">
-                                    <div class="edu-desc">
-                    
-                                        <div class="institute">
-                                            <img src="/assets/web-logo.png" alt="web">
-                                            <h4>Web Applications</h4>
-                                        </div>
-                    
-                                        <p>Let the whole world know about your brand with unique and performance driven website.</p>
-                    
-                                    </div>
+
+                                <div class="flow-box time">
+                                    <img src="/assets/on-time (1).png" alt="on-time">
+                                    <h4>Working on Time</h4>
+                                    <p>Finalise projects on time and high accuracy</p>
                                 </div>
-                    
-                                <div class="do-box box4">
-                                    <div class="edu-desc">
-                    
-                                        <div class="institute">
-                                            <img src="/assets/designing.png" alt="designing">
-                                            <h4>Graphic Designing</h4>
-                                        </div>
-                    
-                                        <p>The best designer can change everything in the artwork. Graphic designers are like magician.</p>
-                    
-                                    </div>
+
+                                <div class="flow-box quality">
+                                    <img src="/assets/high-quality (1).png" alt="quality">
+                                    <h4>High Quality</h4>
+                                    <p>Maintaining the quality and the neat of the project</p>
                                 </div>
+
                             </div>
+
                         </div>
                     
                     </div>
+                </section>
+
+                <section id="iDo">
+
+                    <div class="iDo-cont">
+                        <div class="topic">
+                            <h2>What I Do</h2>
+                            <div class="line"></div>
+                        </div>
+                        
+                        <div class="what-do">
+                            <div class="do-box box1">
+                        
+                                <div class="edu-desc">
+                        
+                                    <div class="box-img">
+                                        <img src="/assets/ui-ux.png" alt="ui-ux">
+                                        <h4>UI/UX Designing</h4>
+                                    </div>
+                        
+                                    <p>
+                                        Design is the main thing of application. Pay more attention to eye-catching colors.
+                                    </p>
+                                </div>
+                        
+                            </div>
+                        
+                            <div class="do-box box2">
+                                <div class="edu-desc">
+                        
+                                    <div class="box-img">
+                                        <img src="/assets/enterprise-logo.png" alt="enterprise-logo">
+                                        <h4>Enterprise Application</h4>
+                                    </div>
+                        
+                                    <p>Create Modern Enterprise Application that reliable and consistency with awesome ideas.</p>
+                        
+                                </div>
+                            </div>
+                        
+                            <div class="do-box box3">
+                                <div class="edu-desc">
+                        
+                                    <div class="box-img">
+                                        <img src="/assets/web-logo.png" alt="web">
+                                        <h4>Web Applications</h4>
+                                    </div>
+                        
+                                    <p>Let the whole world know about your brand with unique and performance driven website.</p>
+                        
+                                </div>
+                            </div>
+                        
+                            <div class="do-box box4">
+                                <div class="edu-desc">
+                        
+                                    <div class="box-img">
+                                        <img src="/assets/designing.png" alt="designing">
+                                        <h4>Graphic Designing</h4>
+                                    </div>
+                        
+                                    <p>The best designer can change everything in the artwork. Graphic designers are like magician.</p>
+                        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
                 </section>
 
                 <section id="works-sec">
@@ -273,7 +326,7 @@
                                         <div class="edu-desc">
                     
                                             <div class="institute">
-                                                <img src="/assets/esoft-logo.png" alt="esoft-logo">
+                                                <img src="/assets/esoft-logo.png" alt="esoft-logo" style="width: 45px; height: 50px; margin-bottom: 5px;">
                                                 <h4>Diploma in IT</h4>
                                             </div>
                     
@@ -283,81 +336,124 @@
                     
                                         </div>
                                     </div>
-                    
-                                    <div class="edu-box box4">
+
+                                    <div class="edu-box box5">
                                         <div class="edu-desc">
-                    
+                                    
                                             <div class="institute">
-                                                <img src="/assets/ijse.png" alt="ijse">
-                                                <h4>Graduate Diploma SE</h4>
+                                                <img src="/assets/britishway.png" alt="britishwayLogo" style="width: 50px; height: 40px;">
+                                                <h4>Diploma in English</h4>
                                             </div>
-                    
-                                            <p>2023 - 2024</p>
-                    
-                                            <h4>Institute of Software Engineering</h4>
-                    
+                                    
+                                            <p>2021 - 2021</p>
+                                    
+                                            <h4>Britishway English Academy</h4>
+                                    
                                         </div>
                                     </div>
+                    
+
                                 </div>
-                    
-                                <h3 style="text-align: left;"> What I Learnt</h3>
-                    
-                                <div class="tech-flex">
-                                    <div class="techs">
-                                        <img src="/assets/java.png" alt="java" style="width: 35px;">
+
+                                <div class="edu-box box4"  style="margin-top: 30px;">
+                                    <div class="edu-desc">
+                                
+                                        <div class="institute">
+                                            <img src="/assets/ijse.png" alt="ijse" style="width: 45px; height: 30px; margin-bottom: 20px;">
+                                            <h4>Graduate Diploma SE</h4>
+                                        </div>
+                                
+                                        <p>2023 - 2024</p>
+                                
+                                        <h4>Institute of Software Engineering</h4>
+                                
                                     </div>
-                    
-                                    <div class="techs">
-                                        <img src="/assets/html.png" alt="html">
-                                    </div>
-                    
-                                    <div class="techs">
-                                        <img src="/assets/adobe-photoshop.png" alt="ps">
-                                    </div>
-                    
-                                    <div class="techs">
-                                        <img src="/assets/figma.png" alt="figma">
-                                    </div>
-                    
-                                    <div class="techs">
-                                        <img src="/assets/css.png" alt="css">
-                                    </div>
-                    
-                                    <div class="techs">
-                                        <img src="/assets/mysql.png" alt="mysql">
-                                    </div>
-                    
-                                </div>
-                    
-                                <br>
-                    
-                                <div class="tech-flex">
-                                    <div class="techs">
-                                        <img src="/assets/arduino.png" alt="arduino">
-                                    </div>
-                    
-                                    <div class="techs">
-                                        <img src="/assets/js.png" alt="js">
-                                    </div>
-                    
-                                    <div class="techs">
-                                        <img src="/assets/adobe-lightroom.png" alt="adobe-lightroom">
-                                    </div>
-                    
-                                    <div class="techs">
-                                        <img src="/assets/illustrator.png" alt="illustrator">
-                                    </div>
-                    
-                                    <div class="techs">
-                                        <img src="/assets/xd.png" alt="xd">
-                                    </div>
-                    
                                 </div>
                     
                             </div>
                     
                         </div>
                     
+                    </div>
+                </section>
+
+                <section id="learnt-sec">
+                    <div class="learnt">
+                        <div class="topic">
+                            <h2 style="margin-bottom: 0px;">What I Learnt</h2>
+                            <div class="line"></div>
+                        </div>
+
+                        <p style="color: rgba(0, 0, 0, 0.356); font-size: 13px; margin-bottom: 50px; text-align: center;">Gained proficiency in coding, data analysis, and effective communication skills</p>
+                        
+                        
+                        <div class="mainEduFlex">
+                            <div class="tech-flex">
+                                <div class="techs">
+                                    <img src="/assets/java.png" alt="java" style="width: 35px;">
+                                </div>
+                            
+                                <div class="techs">
+                                    <img src="/assets/html.png" alt="html">
+                                </div>
+                            
+                                <div class="techs">
+                                    <img src="/assets/adobe-photoshop.png" alt="ps">
+                                </div>
+                            
+                                <div class="techs">
+                                    <img src="/assets/figma.png" alt="figma">
+                                </div>
+                            
+                                <div class="techs">
+                                    <img src="/assets/css.png" alt="css">
+                                </div>
+                            
+                                <div class="techs">
+                                    <img src="/assets/mysql.png" alt="mysql">
+                                </div>
+                            
+                            </div>
+                            
+                            <br>
+                            
+                            <div class="tech-flex">
+                                <div class="techs">
+                                    <img src="/assets/arduino.png" alt="arduino">
+                                </div>
+                            
+                                <div class="techs">
+                                    <img src="/assets/js.png" alt="js">
+                                </div>
+                            
+                                <div class="techs">
+                                    <img src="/assets/adobe-lightroom.png" alt="adobe-lightroom">
+                                </div>
+                            
+                                <div class="techs">
+                                    <img src="/assets/illustrator.png" alt="illustrator">
+                                </div>
+                            
+                                <div class="techs">
+                                    <img src="/assets/xd.png" alt="xd">
+                                </div>
+                            
+                            </div>
+                            
+                            <br>
+                            
+                            <div class="tech-flex">
+                                <div class="techs">
+                                    <img src="/assets/bootstrap.png" alt="bootstrap">
+                                </div>
+                            
+                                <div class="techs">
+                                    <img src="/assets/hibernate.png" alt="hibernate" style="width: 90px;">
+                                </div>
+                            </div>
+                        </div>
+
+                        
                     </div>
                 </section>
 

@@ -7,13 +7,37 @@ body{
     font-weight: bold;
     font-family: "Poppins", sans-serif;
 }
+
+/* #content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
 header{
     font-family: "Aladin", system-ui;
-    font-size: 35px;
-    font-weight: 400;
-    display: inline-block;
-    padding: 35px 0px 45px 8vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 35px 8vw 45px 8vw;
     color: white;
+    align-items: center;
+}
+
+header > h1{
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.menu{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #00494d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .profile-box{
@@ -43,13 +67,21 @@ header{
 .name{
     color: #0D7377;
     font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.se-btn{
+    background-color: #E9E9E9;
+    width: 144px;
+    height: 34px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
 .SE {
-    /* background-color: #E9E9E9;
-    width: 144px;
-    height: 34px;
-    border-radius: 5px; */
     font-size: 12px;
 }
 .profile{
@@ -104,6 +136,10 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.email{
+    font-size: 11px !important;
 }
 
 .personal-info{
@@ -168,16 +204,33 @@ header{
 }
 
 .details{
-    margin-top: 100px;
+    margin-top: 80px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .about{
-    height: 680px;
+    height: 750px;
     width: 800px;
     background: linear-gradient(rgba(255, 255, 255, 0.904), rgba(255, 255, 255, 0.699));
     border-radius: 15px;
     margin-top: 80px;
+}
+
+#iDo{
+    width: 800px;
+}
+
+.iDo-cont{
+    height: 610px;
+    /* width: 800px; */
+    background: linear-gradient(rgba(255, 255, 255, 0.904), rgba(255, 255, 255, 0.699));
+    border-radius: 15px;
+    margin-top: 50px;
+    padding: 30px 60px;
 }
 
 .navigation {
@@ -222,6 +275,11 @@ header{
     background-color: #0D7377;
 }
 
+.box :is(.active){
+    background: none;
+    background-color: #0D7377;
+}
+
 .box > a > img {
     width: 25px;
 }
@@ -251,6 +309,12 @@ header{
     display: flex;
     flex-direction: row;
     gap: 20px;
+}
+
+.topic > h2{
+    font-size: 35px;
+    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .line{
@@ -283,12 +347,12 @@ header{
 
 .do-box {
     width: 330px;
-    height: 130px;
+    height: 220px;
     border-radius: 8px;
 }
 
 .what-do > div > div > p{
-    font-size: 10px;
+    font-size: 13px;
     color: rgba(0, 0, 0, 0.5);
 }
 
@@ -340,7 +404,7 @@ header{
 }
 
 .resume {
-    height: 680px;
+    height: 820px;
     width: 800px;
     /* background-color: rgba(240, 248, 255, 0.699); */
     background: linear-gradient(rgba(255, 255, 255, 0.904), rgba(255, 255, 255, 0.699));
@@ -362,12 +426,14 @@ header{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
+    justify-content: center;
+    align-items: center;
     
 }
 
 .edu-box{
-    width: 310px;
-    height: 130px;
+    width: 330px;
+    height: 200px;
     border-radius: 8px;
 }
 
@@ -394,33 +460,56 @@ header{
     background-color: #ff8d9842;
 }
 
+.box5{
+    background-color: #88ffa285;
+}
+
 .edu-desc{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 20px;
 }
 
 .institute{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     column-gap: 10px;
 }
 
-.institute > img {
-    width: 25px;
-    height: 25px;
+.box-img > img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
 }
 
-.edu-desc > p{
+.institute>img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+.box-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.edu-desc>p {
     color: rgba(0, 0, 0, 0.37);
-    font-size: 12px;
+    font-size: 15px;
     font-weight: lighter;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 5px;
 }
 
-.edu-desc > h4{
-    font-size: 14px;
+.edu-desc>h4 {
+    font-size: 16px;
     margin-top: 0px;
     margin-bottom: 20px;
 }
@@ -428,26 +517,36 @@ header{
 .box1>div>div>h4 {
     color: #0090FF;
     margin: 0px;
+    font-size: 22px;
 }
 
 .box2>div>div>h4 {
     color: #FF8900;
     margin: 0px;
+    font-size: 22px;
 }
 
 .box3>div>div>h4 {
     color: #CB36FF;
     margin: 0px;
+    font-size: 22px;
 }
 .box4>div>div>h4 {
     color: #FF0017;
     margin: 0px;
+    font-size: 22px;
 }
 
 .box4>div>div>img {
-    width: 25px;
-    height: 15px;
+    width: 40px;
+    height: 40px;
     margin-top: 5px;
+}
+
+.box5>div>div>h4 {
+    color: #00a524;
+    margin: 0px;
+    font-size: 22px;
 }
 
 .edu-flex > h3 {
@@ -458,6 +557,13 @@ header{
     display: flex;
     flex-direction: row;
     gap: 50px;
+}
+
+.mainEduFlex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .techs{
@@ -541,4 +647,101 @@ header{
     border-radius: 5px;
     font-size: 15px;
     font-weight: bold;
+}
+
+/* ============================ about-workflow ============================*/
+
+.ultimate > h3{
+    color: #0D7377;
+    font-weight: bolder;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.flow-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.flow-box{
+    /* border-top: 1px  solid #00494d;
+    border-bottom: 1px solid #00494d; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    width: 280px;
+    height: 100px;
+}
+
+.quality{
+    border-top: 1px solid #FF0017;
+    border-bottom: 1px solid #FF0017;
+}
+
+.quality > h4{
+    color: #FF0017;
+}
+
+.time{
+    border-top: 1px solid #CB36FF;
+    border-bottom: 1px solid #CB36FF;
+}
+
+.time > h4{
+    color: #CB36FF;
+}
+
+.chat{
+    border-top: 1px solid #FF8900;
+    border-bottom: 1px solid #FF8900;
+}
+
+.chat > h4{
+    color: #FF8900;
+}
+
+.idea{
+    border-top: 1px solid #0090FF;
+    border-bottom: 1px solid #0090FF;
+}
+
+.idea > h4{
+    color: #0090FF;
+}
+
+.flow-box-hidden{
+    width: 200px;
+    height: 100px;
+}
+
+.flow-box > p{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.308);
+}
+
+.flow-box > img{
+    width: 30px;
+}
+
+.flow-box > h4{
+    margin: 0px;
+}
+
+
+.learnt {
+    height: 450px;
+    background: linear-gradient(rgba(255, 255, 255, 0.904), rgba(255, 255, 255, 0.699));
+    border-radius: 15px;
+    margin-top: 50px;
+    position: sticky;
+    padding: 30px 60px;
+}
+
+.do-box {
+    width: 330px;
+    height: 220px;
+    border-radius: 8px;
 }
