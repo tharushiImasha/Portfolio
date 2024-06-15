@@ -17,6 +17,12 @@
         <h1>Imasha.</h1>
         <div class="menu">
             <img src="/assets/menu (2).svg" alt="menu">
+            <div class="dropdown">
+                <a href="#about-sec">About</a>
+                <a href="#works-sec">Work</a>
+                <a href="#resume-sec">Resume</a>
+                <a href="#contact-sec">Contact</a>
+            </div>
         </div>
             
     </header>
@@ -269,7 +275,7 @@
                     <div class="iDo-cont">
                         <div class="topic">
                             <h2>What I Do</h2>
-                            <div class="line"></div>
+                            <div class="line do-line"></div>
                         </div>
                         
                         <div class="what-do">
@@ -465,7 +471,7 @@
                     <div class="learnt">
                         <div class="topic">
                             <h2 style="margin-bottom: 0px;">What I Learnt</h2>
-                            <div class="line"></div>
+                            <div class="line line-learnt"></div>
                         </div>
 
                         <p style="color: rgba(0, 0, 0, 0.356); font-size: 13px; margin-bottom: 50px; text-align: center;">Gained proficiency in coding, data analysis, and effective communication skills</p>
@@ -618,5 +624,31 @@
         </div>
 
     </div>
+
+    <script>
+        document.getElementById('menu-icon').addEventListener('click', function () {
+            var dropdown = document.querySelector('.menu .dropdown');
+            if (dropdown.style.display === 'block') {
+                dropdown.style.display = 'none';
+            } else {
+                dropdown.style.display = 'block';
+            }
+        });
+
+        // Close the dropdown if clicked outside
+        window.onclick = function (event) {
+            if (!event.target.matches('#menu-icon')) {
+                var dropdowns = document.getElementsByClassName("dropdown");
+                for (var i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.style.display === 'block') {
+                        openDropdown.style.display = 'none';
+                    }
+                }
+            }
+        };
+        
+    </script>
+
 </body>
 </html>

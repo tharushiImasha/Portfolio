@@ -1230,3 +1230,659 @@
     }
     
 }
+
+@media screen and (max-width: 410px) {
+
+    .profile-box {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin: 0vw !important;
+        justify-content: center;
+    }
+
+    .profile-display {
+        height: 760px;
+        width: 350px;
+        margin-left: 0 !important;
+        position: relative !important;
+    }
+
+    .profile-display-picture {
+        width: 350px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .name {
+        color: #0D7377;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .se-btn {
+        background-color: #0d747721;
+        width: 150px;
+        height: 36px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .SE {
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .profile {
+        width: 350px;
+        height: 680px;
+    }
+
+    .social-box {
+        background-color: #0d747721;
+        width: 40px;
+        height: 40px;
+    }
+
+    .social-box>a {
+        width: 25px;
+        height: 25px;
+    }
+
+    .social-image {
+        width: 23px;
+        height: 23px;
+    }
+
+    .contact-details {
+        width: 200px;
+    }
+
+    .info-detail>p {
+        font-size: 13px;
+    }
+
+    .info-detail>h6 {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .email {
+        font-size: 16px !important;
+    }
+
+    .cvBtn {
+        border: none;
+        width: 150px;
+        height: 45px;
+        margin-top: 40px;
+        color: white;
+        background-color: #0D7377;
+        border-radius: 10px;
+        font-weight: bold;
+    }
+
+    .icon-box {
+        width: 50px;
+        height: 50px;
+    }
+
+    .icon-box>img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .contact-details {
+        width: 300px;
+        margin-top: 50px;
+    }
+
+    .about-contact>input {
+        width: 110px;
+        height: 35px;
+    }
+
+    .about {
+        width: 350px;
+        height: 900px;
+    }
+
+    .about>div>h3 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .about>div {
+        padding-left: 23px;
+        padding-right: 23px;
+    }
+
+    #iDo {
+        width: 350px;
+    }
+
+    .iDo-cont {
+        padding: 30px 15px;
+        height: 550px;
+    }
+
+    .do-line {
+        margin-top: 30px;
+        width: 100px;
+    }
+
+    .works {
+        height: 1250px;
+        width: 350px;
+    }
+
+    .what-do {
+        gap: 20px;
+    }
+
+    .do-box {
+        width: 150px;
+    }
+
+    .what-do>div>div>p {
+        font-size: 10px;
+    }
+
+    .first-works {
+        width: 300px;
+        margin-left: 0px;
+    }
+
+    .pizza {
+        width: 300px;
+        height: 150px;
+    }
+
+    .music {
+        width: 300px;
+        height: 140px;
+    }
+
+    .furnitureUi {
+        width: 300px;
+        height: 187px;
+    }
+
+    .resume {
+        width: 350px;
+        height: 1300px;
+    }
+
+    .edu-box {
+        width: 230px;
+        height: 200px;
+        border-radius: 8px;
+    }
+
+    .edu-desc>h4 {
+        font-size: 11px;
+    }
+
+    .box4>div>div>img {
+        width: 25px;
+        height: 15px;
+        margin-top: 5px;
+    }
+
+    .tech-flex {
+        gap: 10px;
+    }
+
+    .contact {
+        width: 350px;
+    }
+
+    .profile-display {
+        display: none;
+    }
+
+    #profile-sec {
+        display: block;
+    }
+
+    .profile-desc {
+        width: 350px;
+    }
+
+    #learnt-sec {
+        width: 350px;
+    }
+
+    .learnt{
+        padding: 30px 30px;
+        height: 350px;
+    }
+
+    .line-learnt {
+        width: 100px;
+        margin-top: 30px;
+    }
+
+    .topic>h2 {
+        font-size: 20px;
+    }
+
+    .form {
+        width: 280px;
+        height: 540px;
+    }
+
+    .box1>div>div>h4 {
+        font-size: 15px;
+    }
+
+    .box2>div>div>h4 {
+        font-size: 15px;
+    }
+
+    .box3>div>div>h4 {
+        font-size: 15px;
+    }
+
+    .box4>div>div>h4 {
+        font-size: 15px;
+    }
+
+    .box5>div>div>h4 {
+        font-size: 15px;
+    }
+
+    .edu-desc>p {
+        font-size: 12px;
+    }
+
+    .first-works {
+        width: 230px;
+    }
+
+    .pizza {
+        width: 230px;
+    }
+
+    .music {
+        width: 230px;
+    }
+
+    .furnitureUi {
+        width: 230px;
+    }
+
+    .flow-box {
+        width: 100px;
+        height: 110px;
+    }
+
+    .flow-box>p {
+        font-size: 8px;
+    }
+
+    .topic {
+        gap: 10px;
+    }
+
+    .techs {
+        width: 40px;
+        height: 40px;
+    }
+
+    .education {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+
+    .work-flex {
+        flex-direction: column !important;
+    }
+
+    .contact>div {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+}
+
+@media screen and (max-width: 410px) {
+
+    header{
+        padding: 35px 8vw 10px 8vw;
+    }
+
+    .profile-box {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin: 0vw !important;
+        justify-content: center;
+    }
+
+    .profile-display {
+        height: 760px;
+        width: 300px;
+        margin-left: 0 !important;
+        position: relative !important;
+    }
+
+    .profile-display-picture {
+        width: 300px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .name {
+        color: #0D7377;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .se-btn {
+        background-color: #0d747721;
+        width: 150px;
+        height: 36px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .SE {
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .profile {
+        width: 300px;
+        height: 680px;
+    }
+
+    .social-box {
+        background-color: #0d747721;
+        width: 40px;
+        height: 40px;
+    }
+
+    .social-box>a {
+        width: 25px;
+        height: 25px;
+    }
+
+    .social-image {
+        width: 23px;
+        height: 23px;
+    }
+
+    .contact-details {
+        width: 200px;
+    }
+
+    .info-detail>p {
+        font-size: 13px;
+    }
+
+    .info-detail>h6 {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .cvBtn {
+        border: none;
+        width: 150px;
+        height: 45px;
+        margin-top: 40px;
+        color: white;
+        background-color: #0D7377;
+        border-radius: 10px;
+        font-weight: bold;
+    }
+
+    .icon-box {
+        width: 50px;
+        height: 50px;
+    }
+
+    .icon-box>img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .contact-details {
+        width: 280px;
+        margin-top: 50px;
+    }
+
+    .about-contact>input {
+        width: 110px;
+        height: 35px;
+    }
+
+    .about {
+        width: 300px;
+        height: 1300px;
+    }
+
+    .about>div>h3 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .about>div {
+        padding-left: 27px;
+        padding-right: 27px;
+    }
+
+    .email {
+        font-size: 14px !important;
+    }
+
+    .what-do {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    #iDo {
+        width: 300px;
+    }
+
+    .iDo-cont {
+        padding: 30px 25px;
+        height: 1050px;
+    }
+
+    .do-line {
+        margin-top: 30px;
+        width: 100px;
+    }
+
+    .works {
+        height: 1250px;
+        width: 300px;
+    }
+
+    .works>div {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .what-do {
+        gap: 20px;
+    }
+
+    .do-box {
+        width: 250px;
+    }
+
+    .flow-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .what-do>div>div>p {
+        font-size: 10px;
+    }
+
+    .first-works {
+        width: 300px;
+        margin-left: 0px;
+    }
+
+    .pizza {
+        width: 300px;
+        height: 150px;
+    }
+
+    .music {
+        width: 300px;
+        height: 140px;
+    }
+
+    .furnitureUi {
+        width: 300px;
+        height: 187px;
+    }
+
+    .resume {
+        width: 300px;
+        height: 1300px;
+    }
+
+    .edu-box {
+        width: 230px;
+        height: 200px;
+        border-radius: 8px;
+    }
+
+    .edu-desc>h4 {
+        font-size: 11px;
+    }
+
+    .box4>div>div>img {
+        width: 25px;
+        height: 15px;
+        margin-top: 5px;
+    }
+
+    .tech-flex {
+        gap: 8px;
+    }
+
+    .contact {
+        width: 300px;
+    }
+
+    .profile-display {
+        display: none;
+    }
+
+    #profile-sec {
+        display: block;
+    }
+
+    .profile-desc {
+        width: 300px;
+    }
+
+    #learnt-sec {
+        width: 300px;
+    }
+
+    .learnt {
+        padding: 30px 20px;
+        height: 330px;
+    }
+
+    .line-learnt {
+        width: 100px;
+        margin-top: 30px;
+    }
+
+    .topic>h2 {
+        font-size: 20px;
+    }
+
+    .form {
+        width: 270px;
+        height: 540px;
+    }
+
+    .box1>div>div>h4 {
+        font-size: 15px;
+    }
+
+    .box2>div>div>h4 {
+        font-size: 15px;
+    }
+
+    .box3>div>div>h4 {
+        font-size: 15px;
+    }
+
+    .box4>div>div>h4 {
+        font-size: 15px;
+    }
+
+    .box5>div>div>h4 {
+        font-size: 15px;
+    }
+
+    .edu-desc>p {
+        font-size: 12px;
+    }
+
+    .first-works {
+        width: 230px;
+    }
+
+    .pizza {
+        width: 230px;
+    }
+
+    .music {
+        width: 230px;
+    }
+
+    .furnitureUi {
+        width: 230px;
+    }
+
+    .flow-box {
+        width: 200px;
+        height: 110px;
+    }
+
+    .flow-box>p {
+        font-size: 8px;
+    }
+
+    .topic {
+        gap: 10px;
+    }
+
+    .techs {
+        width: 40px;
+        height: 40px;
+    }
+
+    .education {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+
+    .work-flex {
+        flex-direction: column !important;
+    }
+
+    .contact>div {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+}

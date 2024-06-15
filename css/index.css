@@ -772,3 +772,30 @@ header > h1{
 .profile-desc > h2{
     font-size: 22px;
 }
+
+/* ============================== menu ============================== */
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 200px;
+}
+
+.dropdown a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+    background-color: #ddd;
+}
+
+.menu:hover .dropdown,
+.menu.show .dropdown {
+    display: block;
+}
