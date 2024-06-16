@@ -150,7 +150,7 @@
     }
 
     .first-works{
-        margin-left: 30px;
+        /* margin-left: 30px; */
         width: 300px;
         height: 250px;
     }
@@ -193,7 +193,7 @@
 
     .edu-box{
         width: 300px;
-        height: 130px;
+        height: 200px;
         border-radius: 8px;
     }
 
@@ -217,6 +217,30 @@
 
     .form{
         width: 650px;
+    }
+    
+    .sec_8Overlay {
+        width: 300px;
+        height: 250px;
+    }
+
+    .chatF {
+        width: 300px;
+    }
+
+    .pizza-a {
+        width: 300px;
+    }
+
+    .sec_8Overlay-small {
+        width: 300px;
+    }
+    .furniture-a {
+        width: 300px;
+    }
+
+    .sec_8Overlay-furniture {
+        width: 300px;
     }
 
 }
@@ -420,6 +444,30 @@
 
     #profile-sec{
         display: block;
+    }
+    .sec_8Overlay {
+        width: 300px;
+        height: 250px;
+    }
+
+    .chatF {
+        width: 300px;
+    }
+
+    .pizza-a {
+        width: 300px;
+    }
+
+    .sec_8Overlay-small {
+        width: 300px;
+    }
+
+    .furniture-a {
+        width: 300px;
+    }
+
+    .sec_8Overlay-furniture {
+        width: 300px;
     }
 
 }
@@ -672,6 +720,31 @@
 
     .flow-box{
         width: 190px;
+    }
+
+    .sec_8Overlay {
+        width: 250px;
+        height: 250px;
+    }
+
+    .chatF {
+        width: 250px;
+    }
+
+    .pizza-a {
+        width: 250px;
+    }
+
+    .sec_8Overlay-small {
+        width: 250px;
+    }
+
+    .furniture-a {
+        width: 250px;
+    }
+
+    .sec_8Overlay-furniture {
+        width: 250px;
     }
 }
 
@@ -939,9 +1012,30 @@
         font-size: 30px;
     }
 
-    /* .work-flex{
-        flex-direction: column !important;
-    } */
+    .sec_8Overlay {
+        width: 320px;
+        height: 250px;
+    }
+
+    .chatF {
+        width: 230px;
+    }
+
+    .pizza-a {
+        width: 230px;
+    }
+
+    .sec_8Overlay-small {
+        width: 230px;
+    }
+
+    .furniture-a {
+        width: 230px;
+    }
+
+    .sec_8Overlay-furniture {
+        width: 230px;
+    }
 }
 
 @media screen and (max-width: 560px) {
@@ -1070,6 +1164,10 @@
     .works {
         height: 1250px;
         width: 400px;
+    }
+
+    .works > div{
+        padding-left: 85px;
     }
 
     .what-do {
@@ -1227,6 +1325,31 @@
 
     .work-flex{
         flex-direction: column !important;
+    }
+
+    .sec_8Overlay {
+        width: 230px;
+        height: 250px;
+    }
+
+    .chatF {
+        width: 230px;
+    }
+
+    .pizza-a {
+        width: 230px;
+    }
+
+    .sec_8Overlay-small {
+        width: 230px;
+    }
+
+    .furniture-a {
+        width: 230px;
+    }
+
+    .sec_8Overlay-furniture {
+        width: 230px;
     }
     
 }
@@ -1546,6 +1669,31 @@
     .contact>div {
         padding-left: 35px;
         padding-right: 35px;
+    }
+
+    .sec_8Overlay {
+        width: 230px;
+        height: 250px;
+    }
+
+    .chatF {
+        width: 230px;
+    }
+
+    .pizza-a {
+        width: 230px;
+    }
+
+    .sec_8Overlay-small {
+        width: 230px;
+    }
+
+    .furniture-a {
+        width: 230px;
+    }
+
+    .sec_8Overlay-furniture {
+        width: 230px;
     }
 
 }
@@ -1883,6 +2031,31 @@
     .contact>div {
         padding-left: 16px;
         padding-right: 16px;
+    }
+
+    .sec_8Overlay {
+        width: 230px;
+        height: 250px;
+    }
+
+    .chatF {
+        width: 230px;
+    }
+
+    .pizza-a {
+        width: 230px;
+    }
+
+    .sec_8Overlay-small {
+        width: 230px;
+    }
+
+    .furniture-a {
+        width: 230px;
+    }
+
+    .sec_8Overlay-furniture {
+        width: 230px;
     }
 
 }
